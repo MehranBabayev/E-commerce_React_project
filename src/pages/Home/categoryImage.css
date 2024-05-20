@@ -1,0 +1,196 @@
+.category_container{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.category_pic{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+
+
+.pic2_con{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+.pic_1{
+    background-image: url(../../assets/image/1_2a9471ff-024d-40f7-a4b3-a15a058ff334_2022-03-24.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;    
+    position: relative;
+    width: 570px;
+    height: 630px;
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+
+.pic_1:hover{
+    background-size: 110%;
+}
+
+
+.pic_2{
+    background-image: url(../../assets/image/2_2022-03-02.avif);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center center; 
+    width: 270px;
+    height: 300px;
+    position: relative;
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.pic_2:hover{
+    background-size: 110%;
+}
+
+
+.pic_3{
+    background-image: url(../../assets/image/3_2022-03-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center center; 
+    width: 270px;
+    height: 300px;
+    position: relative;
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.pic_3:hover{
+    background-size: 110%;
+}
+
+.pic_4{
+    background-image: url(../../assets/image/4_f8612457-70c3-4a0f-b808-0f322a71741c_2022-03-02.webp);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    background-position: center; 
+    width: 270px;
+    height:630px;
+    position: relative;
+    background-size: 200%;
+    transition: 0.8s;
+}
+
+.pic_4:hover{
+    background-size: 215%;
+}
+
+.women{
+    position: absolute;
+    top: 565px;
+    left: 220px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    border: none;
+}
+
+.women:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.accessories{
+    position: absolute;
+    top: 235px;
+    left: 60px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    border: none;
+}
+
+.accessories:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.shoes{
+    position: absolute;
+    top: 235px;
+    left: 60px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    border: none;
+}
+
+.shoes:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.men{
+    position: absolute;
+    top: 565px;
+    left: 60px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+    border: none;
+}
+
+.men:hover{
+    background-color: black;
+    color: white;
+}

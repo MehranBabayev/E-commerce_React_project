@@ -1,0 +1,284 @@
+.instagram {
+    width: 100%;
+
+}
+
+
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insta_head{
+    text-align: center;
+    margin-top: 138px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+
+
+
+
+.insta_head::before{
+    content: "";
+    width: 60px;
+    height:2.5px;
+    position: absolute;
+    background-color: black;
+    right: 380px;
+    
+    top: 50%;
+}
+
+.insta_head::after{
+    content: "";
+    width: 60px;
+    height:2.5px;
+    position: absolute;
+    background-color: black;
+    left: 380px;
+    
+    top: 50%;
+}
+
+
+
+.sale1 {
+    background-image: url(../../assets/image/ins8_2022-03-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale1:hover{
+    background-size: 108%;
+}
+
+.sale2 {
+    background-image: url(../../assets/image/ins7_2022-03-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale2:hover{
+    background-size: 108%;
+}
+
+
+.sale3 {
+    background-image: url(../../assets/image/ins6_2022-03-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale3:hover{
+    background-size: 108%;
+}
+
+
+
+.sale4 {
+    background-image: url(../../assets/image/ins5_2022-03-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale4:hover{
+    background-size: 108%;
+}
+
+
+
+.sale5 {
+    background-image: url(../../assets/image/ins4_2022-03-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale5:hover{
+    background-size: 108%;
+}
+
+
+.sale6 {
+    background-image: url(../../assets/image/ins3_2022-03-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale6:hover{
+    background-size: 108%;
+}
+
+
+
+.sale7 {
+    background-image: url(../../assets/image/ins2_2022-03-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale7:hover{
+    background-size: 108%;
+}
+
+
+
+.sale8 {
+    background-image: url(../../assets/image/ins1_2022-03-02.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 253px;
+    height: 253px;
+    transition: 0.5s;
+
+}
+
+
+.sale8:hover{
+    background-size: 108%;
+}
+
+
+/* Change color of navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+    color: black; /* Set default color to black */
+    background-color: transparent; /* Set default background color to transparent */
+    padding: 30px; /* Add padding */
+    border-radius: 100%; /* Apply border radius */
+    transition: 0.3s;
+}
+
+/* Apply hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: black; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+
+.under{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 47px;
+}
+
+
+.under_container{
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.under_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 25%;
+}
+
+.under_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.under_h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.under_item:hover .under_icon {
+    animation: heartbeat 0.2s infinite;
+    }
+    
+    @keyframes heartbeat {
+        0% {
+        transform: scale(1);
+        }
+        50% {
+        transform: scale(1.2);
+        }
+        100% {
+        transform: scale(1);
+        }
+    }
+    
+.under_icon {
+    font-size: 36px;
+    color: #878787;
+}
+
+
+
+.under_p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #878787;
+}
+
+

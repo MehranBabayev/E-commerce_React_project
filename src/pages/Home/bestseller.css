@@ -1,0 +1,46 @@
+.bestseller{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bestseller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 35px;
+}
+
+.bestseller h3::before{
+    content: "";
+    width: 60px;
+    height:2.5px;
+    position: absolute;
+    background-color: black;
+    right: 190px;
+    top: 30%;
+    text-decoration: none;
+}
+
+.bestseller h3::after{
+    content: "";
+    width: 60px;
+    height:2.5px;
+    position: absolute;
+    background-color: black;
+    left: 190px;
+    top: 30%;
+}
+
+
+.bestseller p{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #878787;
+    font-size: 14px;
+}

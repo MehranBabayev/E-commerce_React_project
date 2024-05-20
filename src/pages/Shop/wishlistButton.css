@@ -1,0 +1,41 @@
+.wishlist-button {
+    position: absolute;
+    background: none; /* Set background to none */
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.5s ease;
+    font-size: 1.5rem;
+    left: 2px;
+    top: 10px;
+    opacity: 0;
+}
+
+.wishlist-button .wishlist-icon {
+    fill: #2e2d2d; /* Default color */
+}
+
+.wishlist-button.added .wishlist-icon {
+    fill: red; /* Color when item is added to wishlist */
+}
+
+.wishlist-button.added:hover .wishlist-icon {
+    fill: red; /* Hover color when item is added to wishlist */
+    background-color: none  !important;
+}
+
+/* Target the inner part of the heart icon */
+.wishlist-button .wishlist-icon::before {
+    fill: red; /* Default color for the inner part */
+}
+
+.wishlist-button.added .wishlist-icon::before {
+    fill: red; /* Color when item is added to wishlist */
+}
+
+.wishlist-button.added:hover .wishlist-icon::before {
+    fill: red; /* Hover color when item is added to wishlist */
+    background-color: none  !important;
+}
+
+

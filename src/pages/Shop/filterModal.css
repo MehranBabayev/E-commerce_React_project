@@ -1,0 +1,276 @@
+.filter-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: -400px;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: left 0.3s;
+}
+
+.filter-modal.open {
+    display: block;
+    left: 0;
+
+}
+
+
+
+
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 10px 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+
+.filter_modal_filter  {
+    margin: 15px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative; /* Set the position to relative for absolute positioning of the line */
+}
+
+.filter_modal_filter::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    width: 350px; /* Set the width of the line */
+    border-bottom: 1px solid #e7e4e4; /* Define the style of the line */
+}
+
+
+
+.filter_modal_close {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: transform 0.2s ease; /* Add transition for smooth animation */
+}
+
+.filter_modal_close:hover {
+    color: #ff0000; /* Change color on hover */
+    transform: rotate(90deg); /* Rotate the close button to the right on hover */
+}
+
+
+.price-filter_h3{
+    margin: 25px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative; /* Set the position to relative for absolute positioning of the line */
+}
+
+
+.price-filter_h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    width: 70px; /* Set the width of the line */
+    border-bottom: 2px solid black; /* Define the style of the line */
+}
+
+
+.price-filter_inputs{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+
+
+
+.price-inputs button {
+    background-color: #56cfe1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.price-inputs button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.price-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price-inputs input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.price-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-buttons button {
+    width: 48%; /* Adjust button width */
+    background-color: #56cfe1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.price-buttons button:hover{
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+.color-filter,
+.brand-filter,
+.price-filter {
+    margin-bottom: 20px;
+}
+
+
+
+
+.color-filter_h3 {
+    margin: 25px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative; /* Set the position to relative for absolute positioning of the line */
+}
+
+
+.color-filter_h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust the position of the line */
+    width: 70px; /* Set the width of the line */
+    border-bottom: 2px solid black; /* Define the style of the line */
+}
+
+
+
+.brand-filter_h3 {
+    margin: 25px 0;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative; /* Set the position to relative for absolute positioning of the line */
+}
+
+
+.brand-filter_h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 70px; 
+    border-bottom: 2px solid black; 
+}
+
+
+/* Common style for both color and brand filters */
+.color-filter ul,
+.brand-filter ul {
+    list-style: none;
+    padding: 0;
+}
+
+.color-filter ul li,
+.brand-filter ul li {
+    margin-bottom: 10px; 
+    transition: 0.3s;
+}
+
+.color-filter label,
+.brand-filter label {
+    cursor: pointer; 
+    display: inline-block; 
+    margin-left: 5px; 
+    vertical-align: middle; 
+}
+
+/* Styling for checkboxes */
+.color-filter input[type="checkbox"],
+.brand-filter input[type="checkbox"] {
+    display: none; /* Hide the default checkbox */
+}
+
+.color-filter input[type="checkbox"] + label::before,
+.brand-filter input[type="checkbox"] + label::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #aaa; /* Border color */
+    border-radius: 2px; /* Border radius */
+    margin-right: 5px; /* Adjust spacing between checkbox and label */
+    vertical-align: middle;
+}
+
+.color-filter input[type="checkbox"]:checked + label::before,
+.brand-filter input[type="checkbox"]:checked + label::before {
+    background-color: #56CFE1; /* Change background color of checked checkbox */
+}
+
+/* Styling for checked checkboxes */
+.color-filter input[type="checkbox"] + label::after,
+.brand-filter input[type="checkbox"] + label::after {
+    content: '\2713'; /* Checkmark character */
+    display: inline-block;
+    font-size: 12px; /* Adjust checkmark size */
+    color: #fff; /* Color of the checkmark */
+    line-height: 14px; /* Adjust line height for vertical alignment */
+    text-align: center; /* Center the checkmark */
+    font-weight: bold; /* Make the checkmark bold */
+    vertical-align: middle;
+}
+
+/* Adjust margin between checkboxes and labels */
+.color-filter input[type="checkbox"] + label,
+.brand-filter input[type="checkbox"] + label {
+    margin-left: 5px;
+}
+
+
+
+
+/* Hover effect for li elements */
+.color-filter ul li:hover,
+.brand-filter ul li:hover {
+    color: #56cfe1; /* Change background color on hover */
+}

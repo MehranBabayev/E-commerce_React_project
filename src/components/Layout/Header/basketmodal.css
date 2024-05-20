@@ -1,0 +1,129 @@
+
+
+.basket-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end; /* Align modal to the right side */
+  align-items: center;
+  z-index: 999;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.basket-modal-content {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: -2px 0 4px rgba(0, 0, 0, 0.1); /* Add shadow on the right side */
+  max-width: 80%;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 80vh; /* Limit height to ensure scrollability */
+  display: flex;
+  flex-direction: column;
+}
+
+.basket-product-info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.basket-product-info img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.basket-details {
+  flex: 1;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.basket-details h3 {
+  margin: 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.basket-details p {
+  margin: 5px 0;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.cart_basket_btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.quantity_btn_menu{
+  color: white;
+  font-size: 25px;
+  background-color: #56CFE1;
+  border-radius: 50px;
+  padding: 5px 25px;
+  border: none;
+
+}
+
+.remove_btn_menu{
+  font-size: 25px;
+  color: #56CFE1;
+}
+
+
+.basket_end{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.basket_end_btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+
+}
+
+.basket_modal_menu_view{
+  color: white;
+  font-size: 16px;
+  background-color: #56CFE1;
+  border-radius: 50px;
+  width: 100px;
+  padding: 5px 5px;
+  border: none;
+}
+
+
+.basket_modal_menu_close{
+  color: white;
+  font-size: 16px;
+  background-color: #56CFE1;
+  border-radius: 50px;
+  width: 100px;
+  width: 100px;
+  padding: 5px 5px;
+  border: none;
+}

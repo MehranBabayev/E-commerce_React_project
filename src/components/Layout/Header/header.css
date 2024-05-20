@@ -1,0 +1,271 @@
+/* Header styles */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+
+
+.header_logo {
+    width: 100px;
+    padding-left: 5px ;
+    height: auto;
+    font-weight: bold;
+    color: #232323;
+}
+
+
+.header_logo img{
+    width: 100%;
+}
+
+
+
+
+.nav_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.link:hover{
+    color: #56cfe1;
+}
+
+
+.header_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    gap: 20px;
+    font-size: 22px;
+}
+
+
+/* CSS for BasketModalMenu */
+.basket-modal-menu_header {
+    color: black;
+    transition: 0.3s;
+}
+
+/* CSS for WishlistModal */
+.wishlist-modal_header {
+    color: black;
+    transition: 0.3s;
+}
+
+/* CSS for SearchModal */
+.search-modal_header {
+    color: black;
+    transition: 0.3s;
+}
+
+
+/* CSS for BasketModalMenu */
+.basket-modal-menu_header:hover {
+    color: #56cfe1; /* Hover color */
+    animation: heartbeat 1s infinite; /* Animation effect */
+}
+
+/* CSS for WishlistModal */
+.wishlist-modal_header:hover {
+    color: #56cfe1; /* Hover color */
+    animation: heartbeat 1s infinite; /* Animation effect */
+}
+
+/* CSS for SearchModal */
+.search-modal_header:hover {
+    color: #56cfe1; /* Hover color */
+    animation: heartbeat 1s infinite; /* Animation effect */
+}
+
+/* Animation keyframes for heartbeat effect */
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.header_icons > div {
+    position: relative;
+}
+
+.cart-counter,
+.wishlist-counter {
+position: absolute;
+top: -8px;
+right: -8px;
+background-color: black;
+color: white;
+border-radius: 150%;
+padding: 1px 4px;
+font-size: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+/* Head styles */
+.head {
+    color: #878787;
+    background-color: #f6f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+
+.head_container{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.head_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.head_contact_icon{
+    font-size: 14px;
+}
+
+.head_email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.head_sail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.span_1{
+    color: red;
+}
+
+
+.span_2{
+    color: black;
+}
+
+
+/* Dropdown menu styles */
+.language-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+.location_icon{
+    font-size: 18px;
+}
+
+
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.drop_icon{
+    font-size: 24px;
+    color: #878787;
+}
+
+
+.head_flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+.head_flag_image{
+    width: 16px;
+    border-radius: 0;
+    height: auto;
+    margin-right: 2px;
+}
+
+
+
+

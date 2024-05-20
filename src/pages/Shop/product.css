@@ -1,0 +1,270 @@
+
+.shop-container {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.shop-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.shop-header h2{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* Style for the select element */
+.sorting-select {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px; /* Add padding */
+    border: 1px solid #878787; /* Add border */
+    border-radius: 50px; /* Add border radius */
+    background-color: #fff; /* White background */
+    color: #333; /* Text color */
+    cursor: pointer; /* Show pointer cursor */
+    width: 100%; /* Full width */
+    outline: none;
+}
+
+/* Style for option elements */
+.sorting-select option {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff; /* White background */
+    color: #333; /* Text color */
+}
+
+/* Style for the select element when hovered */
+.sorting-select:hover {
+    border-color: #666; /* Change border color on hover */
+}
+
+/* Style for option elements when hovered */
+.sorting-select option:hover {
+    background-color: #56cfe1; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+.category-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 390px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.shop_category_item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+}
+
+.shop_category_item_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.filter-icon{
+    color: #878787;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.filter-icon:hover{
+    color: #56cfe1;
+}
+
+
+.category-item {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.product_item_container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 30px;
+
+}
+
+.product-card{
+    width: calc(25%-30px);
+    text-decoration: none;
+}
+
+
+.product-card_h3{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+
+.product-card_h3:hover{
+    color: #56cfe1;
+}
+
+.product-card p{
+    color: #878787;
+}
+
+.product_image{
+    position: relative;
+    
+}
+
+.product_image img {
+    width: 270px;
+    height: 345px;
+    transition: transform 0.5s ease-out; /* Şəkli böyüdən keçid effektini tətbiq edin */
+    margin-bottom: 10px;
+}
+
+
+.quick_button{
+    position: absolute;
+    bottom: 220px;
+    right: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: 150px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: 0.5s;
+    border: none;
+    opacity: 0;
+}
+
+
+.quick_button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+@keyframes button_2{
+    from {
+        transform:translateY(0);
+        opacity:0;
+    }
+    to{
+        transform:translateY(20px);
+        opacity:1;
+    } 
+}
+
+
+
+.product_image:hover .quick_button{
+    animation: button_2 .2s .4s linear forwards;
+}
+
+
+.product_image:hover img {
+    transform: scale(1.05); /* Hover zamanında şəkli böyütün */
+}
+
+
+.product_image:hover .cart_button{
+    animation: button_1 .3s .3s linear forwards;
+}
+
+
+.product_image:hover .wishlist-button{
+    animation: button_3 .2s .2s linear forwards;
+}
+
+
+@keyframes button_1{
+from {
+    transform:translateY(0);
+    opacity:0;
+}
+to{
+    transform:translateY(20px);
+    opacity:1;
+}
+}
+
+
+
+@keyframes button_3{
+    from {
+        transform:translateX(-20);
+        opacity:0;
+    }
+    to{
+        transform:translateX(2px);
+        opacity:1;
+    }
+    }
+
+
+
+/* Style for category item */
+.category-item {
+    /* Add your existing styles */
+    cursor: pointer; /* Show pointer cursor */
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400; /* Default text color */
+    transition: 0.4s;
+}
+
+/* Style for category item when hovered */
+.category-item:hover {
+    color: #56cfe1; /* Change text color on hover */
+}
+
+/* Style for active category item */
+.active {
+    color: #56cfe1; /* Set text color to #56cfe1 */
+}

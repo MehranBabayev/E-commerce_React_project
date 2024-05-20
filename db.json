@@ -1,0 +1,467 @@
+{
+    "colors" : [
+        {
+            "id": 1,
+            "color": "green"
+        },
+        {
+            "id": 2,
+            "color": "red"
+        },
+        {
+            "id": 3,
+            "color": "blue"
+        },
+        {
+            "id" : 4,
+            "color": "black"
+        },
+        {
+            "id": 5,
+            "color": "brown"
+        },
+        {
+            "id": 6,
+            "color": "orange"
+        },
+        {
+            "id": 7,
+            "color": "white"
+        },
+        {
+            "id": 8,
+            "color": "yellow"
+        },
+        {
+            "id": 9,
+            "color": "pink"
+        }
+    ],
+    "category": [
+        {
+            "id": 1,
+            "name": "Women",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Coats"
+                },
+                {
+                    "id": 2,
+                    "name": "Dresses"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Men",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Jeans"
+                },
+                {
+                    "id": 2,
+                    "name": "Sportswear"
+                },
+                {
+                    "id": 3,
+                    "name": "Suits"
+                },
+                {
+                    "id": 4,
+                    "name": "Polo shirts"
+                },
+                {
+                    "id": 5,
+                    "name": "T-Shirts"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Accessories",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Belts"
+                },
+                {
+                    "id": 2,
+                    "name": "Cosmetics"
+                },
+                {
+                    "id": 3,
+                    "name": "Glasses"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Shoes",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Heels"
+                },
+                {
+                    "id": 2,
+                    "name": "Sandals"
+                },
+                                {
+                    "id": 3,
+                    "name": "Sneakers"
+                },
+                {
+                    "id": 4,
+                    "name": "Slippers"
+                }
+            ]
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "brand" : "Burberry"
+        },
+        {
+            "id": 2,
+            "brand" : "C&A"
+        },
+        {
+            "id": 3,
+            "brand" : "Cartier"
+        },
+        {
+            "id": 4,
+            "brand" : "Chanel"
+        },
+        {
+            "id": 5,
+            "brand" : "Chopard"
+        },
+        {
+            "id": 6,
+            "brand" : "Chow Tai Fook"
+        },
+        {
+            "id": 7,
+            "brand" : "Christian Louboutin"
+        },
+        {
+            "id": 8,
+            "brand" : "Ecco"
+        },
+        {
+            "id": 9,
+            "brand" : "Supersport"
+        },
+        {
+            "id": 10,
+            "brand" : "Topshop"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "title": "LV print mini dress",
+            "price": "90.00",
+            "category": {
+                "id" : 1,
+                "name": "Women",
+                "sub_category" : "Dresses"
+            },
+            "brand": "Christian Louboutin",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "white",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/09/2-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 2,
+            "title": "Topshop coat in red",
+            "price": "79.00",
+            "category": {
+                "id" : 1,
+                "name": "Women",
+                "sub_category" : "Coats"
+            },
+            "brand": "Topshop",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 300
+                }
+            ],
+            "color": "red",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/07/20-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 3,
+            "title": "CK polo with tipping",
+            "price": "59.00",
+            "category": {
+                "id" : 1,
+                "name": "Men",
+                "sub_category" : "Polo shirts"
+            },
+            "brand": "Chanel",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 200
+                }
+            ],
+            "color": "green",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/09/25-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L"]
+
+        },
+        {
+            "id": 4,
+            "title": "Zara t-shirt long sleeve",
+            "price": "30.00",
+            "category": {
+                "id" : 1,
+                "name": "Men",
+                "sub_category" : "T-Shirts"
+            },
+            "brand": "Chopard",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 150
+                }
+            ],
+            "color": "blue",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/09/52-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "L", "XL"]
+        },
+        {
+            "id": 5,
+            "title": "Frame round sunglasses",
+            "price": "30.00",
+            "category": {
+                "id" : 1,
+                "name": "Accessories",
+                "sub_category" : "Glasses"
+            },
+            "brand": "Chanel",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 270
+                }
+            ],
+            "color": "brown",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/11/100-600x799.jpg",
+            "views": 550,
+            "sales": 45,
+            "sizes": ["S", "M",  "XL"]
+        },
+        {
+            "id": 6,
+            "title": "Face makeup brush",
+            "price": "10.00",
+            "category": {
+                "id" : 1,
+                "name": "Accessories",
+                "sub_category" : "Cosmetics"
+            },
+            "brand": "Christian Louboutin",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "pink",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/11/139-600x799.jpg",
+            "views": 450,
+            "sales": 45,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 7,
+            "title": "Suede platform heels",
+            "price": "69.00",
+            "category": {
+                "id" : 1,
+                "name": "Shoes",
+                "sub_category" : "Heels"
+            },
+            "brand": "C&A",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "pink",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/11/172-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 8,
+            "title": "Comfort slip on shoes",
+            "price": "30.00",
+            "category": {
+                "id" : 1,
+                "name": "Shoes",
+                "sub_category" : "Sneakers"
+            },
+            "brand": "Cartier",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "white",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/11/176-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 9,
+            "title": "Chunky sneakers",
+            "price": "70.00",
+            "category": {
+                "id" : 1,
+                "name": "Shoes",
+                "sub_category" : "Sneakers"
+            },
+            "brand": "Topshop",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "black",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/11/66.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 10,
+            "title": "Asso slim suit in black",
+            "price": "150.00",
+            "category": {
+                "id" : 1,
+                "name": "Men",
+                "sub_category" :"Suits"
+            },
+            "brand": "Burberry",
+            "description": "With the new fashion trends and all the available shopping options you can order your clothes online and make money without even leaving your house.",
+            "InStock": [
+                {
+                    "stockAvailabilty": true,
+                    "stockCount": 400
+                }
+            ],
+            "color": "black",
+            "StockCount": 20,
+            "onSale": [
+                {
+                    "saleAvailabilty": true,
+                    "saleCount": 40
+                }
+            ],
+            "image": "https://loobek-be87.kxcdn.com/loobek/wp-content/uploads/2022/09/79-600x799.jpg",
+            "views": 550,
+            "sales": 85,
+            "sizes": ["S", "M", "L", "XL"]
+        }
+    ]
+}

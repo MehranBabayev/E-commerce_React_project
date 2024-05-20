@@ -1,0 +1,170 @@
+.product_detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.product_detail_container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.product_detail_image  {
+    width: calc(50% - 10 px); /* Set a fixed width for the container */
+}
+
+.product_detail_image .ReactMagnifierContainer {
+    width: 100%; /* Set the width of the magnifier container */
+}
+
+.product_detail_image .ReactMagnifierContainer img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+    object-fit: cover;
+}
+
+
+.product_detail_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: calc(50% - 10 px);
+}
+
+.product_detail_info h2 {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Add styling for other elements as needed */
+
+
+
+.info_price{
+    color: #878787;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+
+.info_desc{
+    color: #878787;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+}
+
+
+
+
+.info_cat{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.info_stock{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.product_detailed_add_btn{
+    width: 180px;
+    height: 40px;
+    padding: 5px 25px;
+    color: white;
+    background-color: #56cfe1;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}
+
+
+
+.product_detailed_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.product_quantity_actions_detailed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.product_quantity_actions_detailed button{
+    color: white;
+    background-color: #56cfe1;
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+
+.product_quantity_actions_detailed span{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.product_detailed_wish_btn{
+    background-color: white;
+    color: #e9e3e3;
+    font-size: 30px;
+    border: none;
+}
+
+
+
+.product_sizes ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_sizes li {
+    cursor: pointer; /* Add cursor style to indicate clickable */
+    background-color: #dedddd;
+    padding: 5px 10px;
+}
+
+.product_sizes li.selected {
+    /* Add styles for selected size */
+    background-color: #56cfe1;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
